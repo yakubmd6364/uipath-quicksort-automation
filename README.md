@@ -1,6 +1,6 @@
 # UiPath Quicksort Automation
 
-This UiPath project implements the **Quicksort algorithm** to sort an array of integers using workflow automation.  
+This UiPath project implements the **Quicksort algorithm** to sort an array of integers.  
 It demonstrates how recursion and the divide‑and‑conquer approach can be achieved within UiPath Studio.
 
 ## Features
@@ -9,7 +9,6 @@ It demonstrates how recursion and the divide‑and‑conquer approach can be ach
 - Uses `Main.xaml` to set input values and invoke separate sorting logic
 - Contains modular workflow (`SortingArray_Pivot.xaml`) for partition logic and recursion
 - Outputs the sorted array directly to UiPath’s Output panel (log messages)
-- Includes workflow screenshots for visual reference
 
 ## Project Structure
 
@@ -18,15 +17,7 @@ It demonstrates how recursion and the divide‑and‑conquer approach can be ach
   - Sets `low` and `high` index values  
   - Invokes the sorting workflow  
 - **SortingArray_Pivot.xaml** — Contains partition logic and recursive quicksort logic  
-- **project.json** — UiPath project configuration and dependencies  
-- **Screenshots**:
-  - `Main_Workflow.png` — Visual of the main workflow in UiPath Studio
-  - `SortingArray_Pivot_Workflow.png` — Visual of the sorting algorithm workflow
-
-## Screenshots
-
-- [View Main Workflow Screenshot](Main_Workflow.png)
-- [View Sorting Array Pivot Screenshot](SortingArray_Pivot_Workflow.png)
+- **project.json** — UiPath project configuration and dependencies
 
 ## How to Use
 
@@ -41,4 +32,3 @@ It demonstrates how recursion and the divide‑and‑conquer approach can be ach
 - Windows OS
 
 ---
-
