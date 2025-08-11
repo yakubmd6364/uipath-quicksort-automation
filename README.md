@@ -25,11 +25,8 @@ It demonstrates how recursion and the divide‑and‑conquer approach can be ach
 
 ## Screenshots
 
-### Main Workflow
-![Main Workflow](Main_Workflow.png)
-
-### Sorting Array Pivot Workflow
-![Sorting Array Pivot Workflow](SortingArray_Pivot_Workflow.png)
+- [View Main Workflow Screenshot](Main_Workflow.png)
+- [View Sorting Array Pivot Screenshot](SortingArray_Pivot_Workflow.png)
 
 ## How to Use
 
